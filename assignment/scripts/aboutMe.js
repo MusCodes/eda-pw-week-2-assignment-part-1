@@ -38,7 +38,24 @@ else { console.log ('How about we stay home?'); }
 // console log "Roll the dice!" if
 if (luckyNumber == 2 && adventurous == 'true') { console.log('Roll the dice!');}
 // 15 - Write a conditional that console logs "I can have more pets!" 
-console.log("I can have more pets");
+//if the value of `pets` is less than the value of `allowedPets`,
+
+
+if (pets < allowedPets ) {console.log("I can have more pets");
+
+    
+    
+  } else if (pets === allowedPets  ) {console.log('I have enough pets');
+
+    
+
+  } else {console.log("I have too many pets! ");
+
+    
+
+  }
+
+
 //if the value of `pets` is less than the value of `allowedPets`,
 if (pets < allowedPets)
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
