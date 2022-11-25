@@ -1,18 +1,18 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
-var firstName = "Mustafa";
+let firstName = "Mustafa";
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
-var lastName = 'Mustafa';
+let lastName = 'Mustafa';
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
-const fullName= "Mustafa Mustafa";
+const fullName= firstName + lastName;
 // 4 - Console log the value of `fullName`
-console.log("Mustafa Mustafa");
+console.log(fullName);
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumber = "7";
+let luckyNumber = 7;
 // 6 - Console log this sentence, adding in the variables you created above: 
-console.log("My name is Mustafa Mustafa, and I think 7 is a winner!");
+console.log('My name is', firstName, 'and I think', luckyNumber, 'is a winner!' );
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
 
